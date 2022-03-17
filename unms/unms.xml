@@ -7,11 +7,16 @@
     <Network Default="host">bridge</Network>
     <Icon>https://github.com/foxoffire33/unraid-templates/raw/main/icons/ubnt.png</Icon>
     <Category>Network:Management Status:Stable</Category>
+    <Config Type="Port" Name="UNMS Http GUI Port" Target="443" Default="443" Mode="tcp" Description="GUI access port" Display="always" Required="true">80</Config>
+    <Config Type="Port" Name="UNMS Https GUI Port" Target="443" Default="443" Mode="tcp" Description="GUI access port" Display="always" Required="true">443</Config>
+    <Config Type="Port" Name="Web socket port" Target="8081" Default="8081" Mode="tcp" Description="Web socket port" Display="always" Required="true">8081</Config>
+    <Config Type="Port" Name="Web socket port" Target="8082" Default="8081" Mode="tcp" Description="Web socket port" Display="always" Required="true">8082</Config>
+
 <!--    <Config Type="Variable" Name="System User ID" Target="UNMS_USER_ID" Default="950" Description="" Mask="false" Display="advanced" Required="true">950</Config>-->
 <!--    <Config Type="Variable" Name="DEMO" Target="DEMO" Default="" Description="Is it running in demo mode" Mask="false" Display="advanced" Required="true">false</Config>-->
 <!--    <Config Type="Variable" Name="Node ENV" Target="NODE_ENV" Default="" Description="" Mask="false" Display="advanced" Required="true">Node ENV</Config>-->
-<!--    <Config Type="Variable" Name="Http Port" Target="HTTP_PORT" Default="80" Description="" Mask="false" Display="advanced" Required="true">Http port</Config>-->
-<!--    <Config Type="Variable" Name="Websocket Port" Target="WS_PORT" Default="" Description="Web Socket Port" Mask="false" Display="advanced" Required="true">Web Socket Port</Config>-->
+    <Config Type="Variable" Name="Http Port" Target="HTTP_PORT" Default="80" Description="" Mask="false" Display="advanced" Required="true">80</Config>
+    <Config Type="Variable" Name="Websocket Port" Target="WS_PORT" Default="81" Description="Web Socket Port" Mask="false" Display="advanced" Required="true">81</Config>
 <!--    <Config Type="Variable" Name="Web Shell Port" Target="WS_SHELL_PORT" Default="" Description="Web Socket Port" Mask="false" Display="advanced" Required="true">Web Socket Port</Config>-->
 <!--    <Config Type="Variable" Name="Websocket API Port" Target="UNMS_WS_API_PORT" Default="" Description="Web Socket API Port" Mask="false" Display="advanced" Required="true">Web Socket Port</Config>-->
 <!--    <Config Type="Variable" Name="Netflow Port" Target="UNMS_NETFLOW_PORT" Default="950" Description="" Mask="false" Display="advanced" Required="true">950</Config>-->
