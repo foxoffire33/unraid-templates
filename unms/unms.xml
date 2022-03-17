@@ -7,4 +7,22 @@
     <Network Default="host">bridge</Network>
     <Icon>https://github.com/foxoffire33/unraid-templates/raw/main/icons/ubnt.png</Icon>
     <Category>Network:Management Status:Stable</Category>
+<!--    <Config Type="Variable" Name="System User ID" Target="UNMS_USER_ID" Default="950" Description="" Mask="false" Display="advanced" Required="true">950</Config>-->
+<!--    <Config Type="Variable" Name="DEMO" Target="DEMO" Default="" Description="Is it running in demo mode" Mask="false" Display="advanced" Required="true">false</Config>-->
+<!--    <Config Type="Variable" Name="Node ENV" Target="NODE_ENV" Default="" Description="" Mask="false" Display="advanced" Required="true">Node ENV</Config>-->
+<!--    <Config Type="Variable" Name="Http Port" Target="HTTP_PORT" Default="80" Description="" Mask="false" Display="advanced" Required="true">Http port</Config>-->
+<!--    <Config Type="Variable" Name="Websocket Port" Target="WS_PORT" Default="" Description="Web Socket Port" Mask="false" Display="advanced" Required="true">Web Socket Port</Config>-->
+<!--    <Config Type="Variable" Name="Web Shell Port" Target="WS_SHELL_PORT" Default="" Description="Web Socket Port" Mask="false" Display="advanced" Required="true">Web Socket Port</Config>-->
+<!--    <Config Type="Variable" Name="Websocket API Port" Target="UNMS_WS_API_PORT" Default="" Description="Web Socket API Port" Mask="false" Display="advanced" Required="true">Web Socket Port</Config>-->
+<!--    <Config Type="Variable" Name="Netflow Port" Target="UNMS_NETFLOW_PORT" Default="950" Description="" Mask="false" Display="advanced" Required="true">950</Config>-->
+<!--    <Config Type="Variable" Name="SSL Certificate" Target="SSL_CERT" Default="" Description="Is it running in demo mode" Mask="false" Display="advanced" Required="true">false</Config>-->
+<!--    <Config Type="Variable" Name="Public Https Port" Target="PUBLIC_HTTPS_PORT" Default="" Description="" Mask="false" Display="advanced" Required="true">Node ENV</Config>-->
+<!--    <Config Type="Variable" Name="Http Port" Target="HTTP_PORT" Default="80" Description="" Mask="false" Display="advanced" Required="true">Http port</Config>-->
+<!--    <Config Type="Variable" Name="Public Web Socket Port" Target="PUBLIC_WS_PORT" Default="" Description="Web Socket Port" Mask="false" Display="advanced" Required="true">Web Socket Port</Config>-->
+<!--    <Config Type="Variable" Name="Web Shell Port" Target="WS_SHELL_PORT" Default="" Description="Web Socket Port" Mask="false" Display="advanced" Required="true">Web Socket Port</Config>-->
+<!--    <Config Type="Variable" Name="Websocket API Port" Target="UNMS_WS_API_PORT" Default="" Description="Web Socket API Port" Mask="false" Display="advanced" Required="true">Web Socket Port</Config>-->
+    <Config Type="Variable" Name="Postgress User" Target="UNMS_PG_USER" Default="unms" Description="Postgress username" Mask="false" Display="advanced" Required="true">Postgress User</Config>
+    <Config Type="Variable" Name="Postgress password" Target="UNMS_PG_PASSWORD" Default="unms" Description="Postgress password" Mask="false" Display="advanced" Required="true">Postgress Password</Config>
+    <Config Type="Variable" Name="Postgress Database" Target="UNMS_PG_DB" Default="unms" Description="Postgress database" Mask="false" Display="advanced" Required="true">Postgress Database</Config>
+    <Config Type="Variable" Name="Postgress Schema" Target="UNMS_PG_SCHEMA" Default="unms" Description="Postgress Schema" Mask="false" Display="advanced" Required="true">Postgress Schema</Config>
 </Container>
