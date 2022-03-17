@@ -2,7 +2,7 @@
 <Container version="2">
     <Name Default="Sync">unms-postgress</Name>
     <Overview></Overview>
-    <Repository>postgress</Repository>
+    <Repository>postgres</Repository>
     <Privileged>false</Privileged>
     <Network Default="host">bridge</Network>
     <Icon>https://github.com/foxoffire33/unraid-templates/raw/main/icons/postgres.png</Icon>
