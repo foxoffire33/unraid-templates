@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container version="2">
-    <Name Default="Sync">unms-postgress</Name>
+    <Name Default="Sync">unms-postgres</Name>
     <Overview></Overview>
-    <Repository>postgres</Repository>
+    <Repository>postgres:9-alpine</Repository>
     <Privileged>false</Privileged>
     <Network Default="host">bridge</Network>
     <Icon>https://github.com/foxoffire33/unraid-templates/raw/main/icons/postgres.png</Icon>
