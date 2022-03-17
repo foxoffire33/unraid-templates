@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container version="2">
+    <Name Default="Sync">unms-fluentd</Name>
+    <Overview></Overview>
+    <Repository>unms-fluentd</Repository>
+    <Privileged>false</Privileged>
+    <Network Default="host">bridge</Network>
+    <WebUI>http://[IP]:[PORT:32400]/web/index.html</WebUI>
+    <Icon>http://d2631fvi2jdnb6.cloudfront.net/docker/limetech/plex.png</Icon>
+    <Category>Network:Management Status:Stable</Category>
+    <Config Type="Port" Name="UNMS Web UI" Target="443" Default="443" Mode="tcp" Description="UNMS web GUI" Display="always" Required="true">443</Config>
+</Container>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container version="2">
+    <Name Default="Sync">rabbitmq</Name>
+    <Overview></Overview>
+    <Repository>rabbitmq</Repository>
+    <Privileged>false</Privileged>
+    <Network Default="host">bridge</Network>
+    <Icon>http://d2631fvi2jdnb6.cloudfront.net/docker/limetech/plex.png</Icon>
+    <Category>Network:Management Status:Stable</Category>
+    <Config Type="Port" Name="Comulication port" Target="8080" Default="8080" Mode="tcp" Description="Comulication port" Display="always" Required="true">8080</Config>
+</Container>
