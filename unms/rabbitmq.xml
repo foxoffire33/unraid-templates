@@ -5,7 +5,7 @@
     <Repository>rabbitmq</Repository>
     <Privileged>false</Privileged>
     <Network Default="host">bridge</Network>
-    <Icon>http://d2631fvi2jdnb6.cloudfront.net/docker/limetech/plex.png</Icon>
+    <Icon>https://github.com/foxoffire33/unraid-templates/raw/main/icons/rabbitmq.png</Icon>
     <Category>Network:Management Status:Stable</Category>
     <Config Type="Port" Name="Comulication port" Target="8080" Default="8080" Mode="tcp" Description="Comulication port" Display="always" Required="true">8080</Config>
 </Container>
