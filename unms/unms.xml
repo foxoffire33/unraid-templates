@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container version="2">
-    <Name Default="Sync">ubnt/unms</Name>
+    <Name Default="Sync">UNMS</Name>
     <Overview></Overview>
     <Repository>ubnt/unms</Repository>
     <Privileged>false</Privileged>
     <Network Default="host">bridge</Network>
     <Icon>https://github.com/foxoffire33/unraid-templates/raw/main/icons/ubnt.png</Icon>
     <Category>Network:Management Status:Stable</Category>
-    <Config Type="Port" Name="UNMS Web UI" Target="443" Default="443" Mode="tcp" Description="UNMS web GUI" Display="always" Required="true">443</Config>
 </Container>
