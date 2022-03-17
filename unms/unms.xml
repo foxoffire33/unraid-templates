@@ -21,8 +21,8 @@
 <!--    <Config Type="Variable" Name="Public Web Socket Port" Target="PUBLIC_WS_PORT" Default="" Description="Web Socket Port" Mask="false" Display="advanced" Required="true">Web Socket Port</Config>-->
 <!--    <Config Type="Variable" Name="Web Shell Port" Target="WS_SHELL_PORT" Default="" Description="Web Socket Port" Mask="false" Display="advanced" Required="true">Web Socket Port</Config>-->
 <!--    <Config Type="Variable" Name="Websocket API Port" Target="UNMS_WS_API_PORT" Default="" Description="Web Socket API Port" Mask="false" Display="advanced" Required="true">Web Socket Port</Config>-->
-    <Config Type="Variable" Name="Postgress User" Target="UNMS_PG_USER" Default="unms" Description="Postgress username" Mask="false" Display="advanced" Required="true">Postgress User</Config>
-    <Config Type="Variable" Name="Postgress password" Target="UNMS_PG_PASSWORD" Default="unms" Description="Postgress password" Mask="false" Display="advanced" Required="true">Postgress Password</Config>
-    <Config Type="Variable" Name="Postgress Database" Target="UNMS_PG_DB" Default="unms" Description="Postgress database" Mask="false" Display="advanced" Required="true">Postgress Database</Config>
-    <Config Type="Variable" Name="Postgress Schema" Target="UNMS_PG_SCHEMA" Default="unms" Description="Postgress Schema" Mask="false" Display="advanced" Required="true">Postgress Schema</Config>
+    <Config Type="Variable" Name="Postgress User" Target="UNMS_PG_USER" Default="unms" Description="Postgress username" Mask="false" Display="advanced" Required="true">unms</Config>
+    <Config Type="Variable" Name="Postgress password" Target="UNMS_PG_PASSWORD" Default="unms" Description="Postgress password" Mask="false" Display="advanced" Required="true">unms</Config>
+    <Config Type="Variable" Name="Postgress Database" Target="UNMS_PG_DB" Default="unms" Description="Postgress database" Mask="false" Display="advanced" Required="true">unms</Config>
+    <Config Type="Variable" Name="Postgress Schema" Target="UNMS_PG_SCHEMA" Default="unms" Description="Postgress Schema" Mask="false" Display="advanced" Required="true">unms</Config>
 </Container>

@@ -2,12 +2,12 @@
 <Container version="2">
     <Name Default="Sync">unms-postgres</Name>
     <Overview></Overview>
-    <Repository>postgres:9-alpine</Repository>
+    <Repository>postgres:10-alpine</Repository>
     <Privileged>false</Privileged>
     <Network Default="host">bridge</Network>
     <Icon>https://github.com/foxoffire33/unraid-templates/raw/main/icons/postgres.png</Icon>
     <Category>Network:Management Status:Stable</Category>
-    <Config Type="Variable" Name="Postgress User" Target="POSTGRES_USER" Default="unms" Description="Postgress username" Mask="false" Display="advanced" Required="true">Postgress User</Config>
-    <Config Type="Variable" Name="Postgress password" Target="POSTGRES_PASSWORD" Default="unms" Description="Postgress password" Mask="false" Display="advanced" Required="true">Postgress Password</Config>
-    <Config Type="Variable" Name="Postgress Database" Target="POSTGRES_DB" Default="unms" Description="Postgress database" Mask="false" Display="advanced" Required="true">Postgress Database</Config>
+    <Config Type="Variable" Name="Postgress User" Target="POSTGRES_USER" Default="unms" Description="Postgress username" Mask="false" Display="advanced" Required="true">unms</Config>
+    <Config Type="Variable" Name="Postgress password" Target="POSTGRES_PASSWORD" Default="unms" Description="Postgress password" Mask="false" Display="advanced" Required="true">unms</Config>
+    <Config Type="Variable" Name="Postgress Database" Target="POSTGRES_DB" Default="unms" Description="Postgress database" Mask="false" Display="advanced" Required="true">unms</Config>
 </Container>
